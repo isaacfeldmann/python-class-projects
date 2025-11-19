@@ -15,7 +15,7 @@ This program functions similarly to the ping command by using the Scapy library 
 This project shows the ability to build common networking utilities from scratch using packet-crafting libraries. It demonstrates understanding of ICMP behavior, basic network enumeration techniques, and how such tools can be adapted for automation, diagnostics, or security testing workflows.
 
 
--- student_form_database --
+-- student_form_database.py --
 
 This program focuses on the creation of a simple graphical interface for entering student information. Through the use of the Tkinter library, the program creates a basic GUI form. The script takes the information entered by the user and writes it into an SQL database file through integrated SQL queries using the SQLite3 library. The program also allows the user to browse the entered data with a "view records" option within the interface.
 
