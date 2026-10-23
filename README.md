@@ -20,3 +20,10 @@ This project shows the ability to build common networking utilities from scratch
 This program focuses on the creation of a simple graphical interface for entering student information. Through the use of the Tkinter library, the program creates a basic GUI form. The script takes the information entered by the user and writes it into an SQL database file through integrated SQL queries using the SQLite3 library. The program also allows the user to browse the entered data with a "view records" option within the interface.
 
 The project showcases the ability to create a basic graphical interface that could be customized for a variety of use cases. It also demonstrates an understanding of SQL databases and how to integrate SQL queries directly into Python scripts.
+
+
+-- ProjectSentinel.ipynb --
+
+Project Sentinel is an end-to-end natural language processing and machine learning pipeline built to analyze and classify social media discourse surrounding the 2020 U.S. presidential election. The system preprocesses raw tweet text through tokenization, lemmatization, and TF-IDF vectorization, while integrating geospatial mapping to visualize political engagement and extremist rhetoric. It evaluates a comprehensive range of classifiers, comparing traditional algorithms like Naive Bayes, XGBoost, and Linear SVC against an advanced Bidirectional LSTM deep learning model.
+
+The project addresses the challenge of large-scale content moderation and the spread of radicalization during high-stakes political events. By benchmarking multiple modeling approaches, it identifies the most effective architectures for detecting subtle toxic language online and offers actionable data insights into how extremist discourse is geographically distributed.
