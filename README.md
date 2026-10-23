@@ -22,8 +22,22 @@ This program focuses on the creation of a simple graphical interface for enterin
 The project showcases the ability to create a basic graphical interface that could be customized for a variety of use cases. It also demonstrates an understanding of SQL databases and how to integrate SQL queries directly into Python scripts.
 
 
--- ProjectSentinel.ipynb --
+-- Project_Sentinel.ipynb --
 
 Project Sentinel is an end-to-end natural language processing and machine learning pipeline built to analyze and classify social media discourse surrounding the 2020 U.S. presidential election. The system preprocesses raw tweet text through tokenization, lemmatization, and TF-IDF vectorization, while integrating geospatial mapping to visualize political engagement and extremist rhetoric. It evaluates a comprehensive range of classifiers, comparing traditional algorithms like Naive Bayes, XGBoost, and Linear SVC against an advanced Bidirectional LSTM deep learning model.
 
 The project addresses the challenge of large-scale content moderation and the spread of radicalization during high-stakes political events. By benchmarking multiple modeling approaches, it identifies the most effective architectures for detecting subtle toxic language online and offers actionable data insights into how extremist discourse is geographically distributed.
+
+
+-- Project_Janus.ipynb --
+
+Project Janus is an advanced computer vision and facial recognition pipeline designed to detect, classify, and verify facial images across various visual conditions. The system integrates multiple machine learning architectures, including custom Convolutional Neural Networks (CNNs), YOLOv8 for efficient face detection, and InsightFace's ArcFace implementation to generate high-precision facial embeddings and calculate cosine similarity matching between subjects.
+
+The project addresses the technical challenges of reliable biometric identification and automated visual classification in unstructured environments. By benchmarking traditional CNN models against state-of-the-art YOLOv8 and metric-learning embedding frameworks, it evaluates which deep learning techniques are most effective for accurate face recognition and identity verification.
+
+
+-- Project_Skywatch.ipynb --
+
+Operation Skywatch is a computer vision pipeline designed to classify and identify different models of Russian fighter jets from visual and aerial imagery. The system implements data preprocessing pipelines and aggressive data augmentation to handle varying angles, utilizing a MobileNetV2 transfer learning architecture alongside a YOLOv8 classification model for high-speed inference. It incorporates comprehensive evaluation tools, including confusion matrices and classification reports, to assess model performance across multiple deep learning frameworks.
+
+The project solves the challenge of automated aerial reconnaissance and aircraft identification in aerospace monitoring applications. By benchmarking lightweight convolutional neural networks and state-of-the-art YOLOv8 models, it provides a reliable, high-speed solution for classifying military assets accurately from unstructured image data.
